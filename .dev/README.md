@@ -12,6 +12,8 @@ Windows、Linux、MacOSで動作します。
 
 ## 1. Hosts configuration
 
+<a id="section_1"></a>
+
 ---
 
 ローカル開発で使用するドメインは`laravel.test`です。
