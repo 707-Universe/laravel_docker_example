@@ -36,7 +36,7 @@ cat .env.development > .env
 
 ### 3. hostsを設定する
 
-hostsを設定すると<http://laravel.test>というURLでLaravelにアクセスできるようになります。
+hostsを設定すると <http://laravel.test/> というURLでLaravelにアクセスできるようになります。
 
 具体的な設定方法はにつきましては、別ページでまとめておりますので、下記のリンクをご確認ください。
 
