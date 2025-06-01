@@ -12,11 +12,6 @@ if [ ! -d vendor ]; then
     composer install
 fi
 
-# Empty sqlite database
-if [ ! -f database/database.sqlite ]; then
-    cp database/stubs/sqlite.empty.db database/database.sqlite
-fi
-
 # .env file set up
 if [ ! -f .env ]; then
     cp .env.example .env
