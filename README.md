@@ -12,6 +12,8 @@
 
 ### 1. Dockerコンテナを起動する
 
+`.dev`ディレクトリには、Docker関連のデータが保存されている。
+
 ```
 docker-compose -f .dev/docker-compose.yml up -d --build
 ```
