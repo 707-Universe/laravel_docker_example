@@ -83,7 +83,7 @@ grep -qxF 'export USRID=$(id -u) GRPID=$(id -g)' ~/.${SHELL##*/}rc || echo 'expo
 開発環境を起動するには、次のようにdocker composeを実行します。
 
 ```
-docker-compose -f .dev/docker-compose.yml up --build
+docker-compose -f .dev/docker-compose.yml up -d --build
 ```
 
 **重要**: Linuxを使用しており、`export`によって、.zshrc/.bashrcファイルに行を追加していない場合は、[2. ファイルシステムの設定（Linux）](#section_2)の作業を行う必要があります。
@@ -95,7 +95,7 @@ docker-compose -f .dev/docker-compose.yml up --build
 環境を停止するには、次のように docker compose を実行します。
 
 ```
-docker compose -f .dev/docker-compose.mysql.yml down
+docker compose -f .dev/docker-compose.yml down
 ```
 
 ### 4.3. バイナリの操作
