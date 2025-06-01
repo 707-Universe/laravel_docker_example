@@ -11,7 +11,6 @@ Windows、Linux、MacOSで動作します。
 ---
 
 ## 1. Hosts configuration
-<a id="section_1"></a>
 
 ---
 
@@ -94,7 +93,7 @@ docker-compose -f .dev/docker-compose.yml up --build
 環境を停止するには、次のように docker compose を実行します。
 
 ```
-docker compose -f .dev/docker-compose.yml down
+docker compose -f .dev/docker-compose.mysql.yml down
 ```
 
 ### 4.3. バイナリの操作
