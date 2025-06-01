@@ -12,7 +12,7 @@ docker-compose -f .dev/docker-compose.yml up --build
 
 ## envファイルを切り替えたい場合
 
-### Developmentの環境変数に上書きする
+### Developmentの環境変数で上書きする
 
 ```
 cat .env.development > .env
