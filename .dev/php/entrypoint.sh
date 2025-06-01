@@ -1,8 +1,8 @@
 #!/bin/bash
 
-echo "############################################"
+echo "#######################################"
 echo "### Laravel Development Environment ###"
-echo "############################################"
+echo "########################################"
 
 cd /home/laravel/app
 
@@ -14,7 +14,7 @@ fi
 
 # .env file set up
 if [ ! -f .env ]; then
-    cp .env.example .env
+    cp .env.development .env
     php artisan key:generate --force
 fi
 
